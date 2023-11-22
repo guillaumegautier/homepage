@@ -1,0 +1,44 @@
+{
+  "name": "cobblestone",
+  "version": "2.0.0",
+  "description": "## Log",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumegautier/cobblestone.git"
+  },
+  "keywords": [
+    "Jekyll",
+    "Sass",
+    "starter",
+    "workflow",
+    "Bootstrap"
+  ],
+  "author": "Guillaume Gautier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillaumegautier/cobblestone/issues"
+  },
+  "homepage": "https://github.com/guillaumegautier/cobblestone#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "child_process": "^1.0.2",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-dependents": "^1.2.5",
+    "gulp-image": "~6.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

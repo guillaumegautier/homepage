@@ -1,0 +1,9 @@
+<footer>
+	<script src="media/js/vendor/jquery.min.js"></script>
+	{% for vendorscript in page.vendorscripts  %}
+	<script src="media/js/vendor/{{vendorscript}}.js"></script>
+	{% endfor %}
+	{% for srcscript in page.srcscripts  %}
+	<script src="media/js/src/{{srcscript}}.js"></script>
+	{% endfor %}
+</footer>
