@@ -40,5 +40,4 @@ Thumbs.db
 ##########
 .sass-cache
 node_modules
-dist
 src/.jekyll-cache/
