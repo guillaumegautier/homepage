@@ -1,0 +1,14 @@
+{% if bm-logo == nil %}
+{% assign bm-logo = bm-name %}
+{% endif %}
+
+<div class="bookmarks-list_item bm-md">
+	<div class="bm-thumbnail overflow-hidden"><img src="{{site.imagepath}}/thumbnails/{{bm-logo}}.png" alt=""></div>
+	<div class="bm-header">
+		<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/{{bm-logo}}-logo.png" alt=""></div>
+		<div class="bm-header-name">{{bm-name}}</div>
+	</div>
+	<a class="bm-link" href="{{bm-link}}" target="_blank"></a>
+</div>
+
+{% assign bm-logo = nil %}

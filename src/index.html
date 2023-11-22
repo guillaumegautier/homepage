@@ -7,42 +7,96 @@ vendorscripts: []
 userscalable: false
 ---
 
-
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				Cobbestone v2.0
-			</div>
-		</div>
-	</div>
-
+{% comment %}
 	<div class="container">
 		<div class="bookmarks-list">
 
 			<div class="bookmarks-list_item">
-				<div class="bookmark-thumbnail"><img src="{{site.imagepath}}thumbnails/artstation.png" alt=""></div>
-				<div class="bookmark-header">
-					<div class="bookmark-header-logo"><img src="{{site.imagepath}}logos/artstation-logo.png" alt=""></div>
-					<div class="bookmark-header-name">Artstation</div>
+				<div class="bm-thumbnail rounded-5 overflow-hidden"><img src="{{site.imagepath}}/thumbnails/artstation.png" alt=""></div>
+				<div class="bm-header">
+					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/artstation-logo.png" alt=""></div>
+					<div class="bm-header-name">Artstation</div>
 				</div>
 			</div>
 
 			<div class="bookmarks-list_item">
-				<div class="bookmark-thumbnail"><img src="{{site.imagepath}}thumbnails/behance.png" alt=""></div>
-				<div class="bookmark-header">
-					<div class="bookmark-header-logo"><img src="{{site.imagepath}}logos/behance-logo.png" alt=""></div>
-					<div class="bookmark-header-name">Behance</div>
+				<div class="bm-thumbnail"><img src="{{site.imagepath}}/thumbnails/behance.png" alt=""></div>
+				<div class="bm-header">
+					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/behance-logo.png" alt=""></div>
+					<div class="bm-header-name">Behance</div>
 				</div>
 			</div>
 
 			<div class="bookmarks-list_item">
-				<div class="bookmark-thumbnail"><img src="{{site.imagepath}}thumbnails/dribbble.png" alt=""></div>
-				<div class="bookmark-header">
-					<div class="bookmark-header-logo"><img src="{{site.imagepath}}logos/dribbble-logo.png" alt=""></div>
-					<div class="bookmark-header-name">Dribbble</div>
+				<div class="bm-thumbnail"><img src="{{site.imagepath}}/thumbnails/dribbble.png" alt=""></div>
+				<div class="bm-header">
+					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/dribbble-logo.png" alt=""></div>
+					<div class="bm-header-name">Dribbble</div>
 				</div>
 			</div>
 
 		</div>
 	</div>
+	{% endcomment %}
+
+	<div class="container">
+
+
+		<section class="bookmarks-section">
+			<h2 class="section-title">Creation</h2>
+			<div class="bookmarks-list">
+				{% assign bm-name = 'artstation' %}
+				{% assign bm-link = 'https://www.artstation.com' %}
+				{% include bm/bm-lg.html %}
+
+				{% assign bm-name = 'behance' %}
+				{% assign bm-link = 'https://www.behance.net' %}
+				{% include bm/bm-lg.html %}
+
+				{% assign bm-name = 'dribbble' %}
+				{% assign bm-link = 'https://www.dribbble.com' %}
+				{% include bm/bm-lg.html %}
+			</div>
+		</section>
+
+		<section class="bookmarks-section">
+			<h2 class="section-title">Section title</h2>
+
+			<div class="bookmarks-list">
+				{% assign bm-name = 'sketchup' %}
+				{% assign bm-link = 'https://app.sketchup.com/app' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'Google drive' %}
+				{% assign bm-logo = 'google_drive' %}
+				{% assign bm-link = 'https://drive.google.com/' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'youtube' %}
+				{% assign bm-link = 'https://youtube.com' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'gmail' %}
+				{% assign bm-link = 'https://www.gmail.com' %}
+				{% include bm/bm-sm.html %}
+			</div>
+			
+		</section>
+
+
+<section class="bookmarks-section">
+	<h2 class="section-title">Inspiration</h2>
+
+<div class="bookmarks-list">
+	{% assign bm-name = 'site inspire' %}
+	{% assign bm-logo = 'site_inspire' %}
+				{% assign bm-link = 'https://www.siteinspire.com/' %}
+				{% include bm/bm-md.html %}
+</div>
+
+</section>
+
+	</div>
+
+
 
