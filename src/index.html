@@ -64,7 +64,7 @@ userscalable: false
 		</section>
 
 		<section class="bookmarks-section">
-			<h2 class="section-title">Section title</h2>
+			<h2 class="section-title">Daily</h2>
 
 			<div class="bookmarks-list">
 				{% assign bm-name = 'sketchup' %}
@@ -87,6 +87,10 @@ userscalable: false
 				{% assign bm-name = 'calendar' %}
 				{% assign bm-logo = 'google_calendar' %}
 				{% assign bm-link = 'https://calendar.google.com/' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'synology' %}
+				{% assign bm-link = 'http://192.168.1.14:5000/' %}
 				{% include bm/bm-sm.html %}
 
 			</div>
