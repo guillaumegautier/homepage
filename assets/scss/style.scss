@@ -122,7 +122,9 @@ body{
 		}
 
 		&.bm-lg{
-			@include list-item(md, 4);
+			@include list-item(xs, 1);
+			@include list-item(sm, 2);
+			@include list-item(md, 3);
 			@include list-item(lg, 4);
 			@include list-item(xl, 4);
 
@@ -136,7 +138,9 @@ body{
 		}
 
 		&.bm-md{
-			@include list-item(md, 6);
+			@include list-item(xs, 1);
+			@include list-item(sm, 2);
+			@include list-item(md, 3);
 			@include list-item(lg, 4);
 			@include list-item(xl, 4);
 
@@ -150,6 +154,8 @@ body{
 		}
 
 		&.bm-sm{
+			@include list-item(xs, 1);
+			@include list-item(sm, 2);
 			@include list-item(md, 4);
 
 			.bm-header{
