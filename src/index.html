@@ -1,48 +1,26 @@
 ---
 layout: default 
-title: Cobblestone
+title: Home
 styles: [style] 
 srcscripts: []
 vendorscripts: []
 userscalable: false
 ---
 
-{% comment %}
-	<div class="container">
-		<div class="bookmarks-list">
 
-			<div class="bookmarks-list_item">
-				<div class="bm-thumbnail rounded-5 overflow-hidden"><img src="{{site.imagepath}}/thumbnails/artstation.png" alt=""></div>
-				<div class="bm-header">
-					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/artstation-logo.png" alt=""></div>
-					<div class="bm-header-name">Artstation</div>
-				</div>
+	<header class="header">
+		<div class="container-fluid">
+			<div class="branding">
+				<img src="media/img/logos/gg-logo.svg" alt="" class="gg-logo">
+				<span class="branding-text">Home</span>
 			</div>
-
-			<div class="bookmarks-list_item">
-				<div class="bm-thumbnail"><img src="{{site.imagepath}}/thumbnails/behance.png" alt=""></div>
-				<div class="bm-header">
-					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/behance-logo.png" alt=""></div>
-					<div class="bm-header-name">Behance</div>
-				</div>
-			</div>
-
-			<div class="bookmarks-list_item">
-				<div class="bm-thumbnail"><img src="{{site.imagepath}}/thumbnails/dribbble.png" alt=""></div>
-				<div class="bm-header">
-					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/dribbble-logo.png" alt=""></div>
-					<div class="bm-header-name">Dribbble</div>
-				</div>
-			</div>
-
 		</div>
-	</div>
-	{% endcomment %}
+	</header>
 
 	<div class="container">
 
 
-		<section class="bookmarks-section">
+		<!-- <section class="bookmarks-section">
 			<h2 class="section-title">Creation</h2>
 			<div class="bookmarks-list">
 				{% assign bm-name = 'artstation' %}
@@ -71,43 +49,208 @@ userscalable: false
 				{% assign bm-link = 'https://ui8.net/' %}
 				{% include bm/bm-md.html %}
 			</div>
-		</section>
+		</section> -->
 
 		<section class="bookmarks-section">
-			<h2 class="section-title">Daily</h2>
+
 
 			<div class="bookmarks-list">
-				{% assign bm-name = 'sketchup' %}
-				{% assign bm-link = 'https://app.sketchup.com/app' %}
-				{% include bm/bm-sm.html %}
 
-				{% assign bm-name = 'Google drive' %}
-				{% assign bm-logo = 'google_drive' %}
-				{% assign bm-link = 'https://drive.google.com/' %}
-				{% include bm/bm-sm.html %}
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(39,131,240); background: linear-gradient(40deg, rgba(39,131,240,1) 0%, rgba(88,188,255,1) 100%);' %}
+					{% assign bm-logo = 'dsm-white.svg' %}
+					{% assign bm-name = 'Synology' %}
+					{% assign bm-link = 'http://192.168.1.14:5000/' %}
+					{% include bm/bm-new.html %}
+				</div>
 
-				{% assign bm-name = 'youtube' %}
-				{% assign bm-link = 'https://youtube.com' %}
-				{% include bm/bm-sm.html %}
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'ynab-color.svg' %}
+					{% assign bm-name = 'YNAB' %}
+					{% assign bm-link = 'https://app.ynab.com/users/sign_in' %}
+					{% include bm/bm-new.html %}
+				</div>
 
-				{% assign bm-name = 'gmail' %}
-				{% assign bm-link = 'https://www.gmail.com' %}
-				{% include bm/bm-sm.html %}
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234);
+					background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'sketchup-color.svg' %}
+					{% assign bm-name = 'Sketchup' %}
+					{% assign bm-link = 'https://app.sketchup.com/app' %}
+					{% include bm/bm-new.html %}
+				</div>
 
-				{% assign bm-name = 'calendar' %}
-				{% assign bm-logo = 'google_calendar' %}
-				{% assign bm-link = 'https://calendar.google.com/' %}
-				{% include bm/bm-sm.html %}
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234);
+					background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'googledrive-color.svg' %}
+					{% assign bm-name = 'Drive' %}
+					{% assign bm-link = 'https://drive.google.com/drive/home' %}
+					{% include bm/bm-new.html %}
+				</div>
 
-				{% assign bm-name = 'synology' %}
-				{% assign bm-link = 'http://192.168.1.14:5000/' %}
-				{% include bm/bm-sm.html %}
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234);
+					background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'youtube-color.svg' %}
+					{% assign bm-name = 'Youtube' %}
+					{% assign bm-link = 'https://youtube.com' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234);
+					background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'gmail-color.svg' %}
+					{% assign bm-name = 'GMail' %}
+					{% assign bm-link = 'https://mail.google.com/mail/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234);
+					background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'calendar-color.svg' %}
+					{% assign bm-name = 'Calendar' %}
+					{% assign bm-link = 'https://calendar.google.com/' %}
+					{% include bm/bm-new.html %}
+				</div>
 
 			</div>
-			
+
+		</section>
+
+		<section class="bookmark-section">
+			<h2 class="section-title">Veille</h2>
+
+			<div class="bookmarks-list">
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(127,69,237);background: linear-gradient(307deg, rgba(127,69,237,1) 0%, rgba(193,61,242,1) 100%);' %}
+					{% assign bm-logo = 'dailydev-white.svg' %}
+					{% assign bm-name = 'daily.dev' %}
+					{% assign bm-link = 'https://app.daily.dev' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(31,42,115);background: linear-gradient(47deg, rgba(31,42,115,1) 0%, rgba(51,76,247,1) 100%);' %}
+					{% assign bm-logo = 'codrops-white.svg' %}
+					{% assign bm-name = 'Codrops' %}
+					{% assign bm-link = 'https://tympanus.net/codrops/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+			</div>
+		</section>
+
+		<section class="bookmark-section">
+			<h2 class="section-title">Tapbuy</h2>
+
+			<div class="bookmarks-list">
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'jira-color.svg' %}
+					{% assign bm-name = 'Jira' %}
+					{% assign bm-link = 'https://bazando.atlassian.net/jira/projects' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(255,209,47);background: linear-gradient(180deg, rgba(255,209,47,1) 0%, rgba(193,160,0,1) 100%);' %}
+					{% assign bm-logo = 'miro-color.svg' %}
+					{% assign bm-name = 'Miro' %}
+					{% assign bm-link = 'https://miro.com/app/board/uXjVKYdJSio=/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(232,163,59);background: linear-gradient(27deg, rgba(232,163,59,1) 0%, rgba(249,207,53,1) 100%);' %}
+					{% assign bm-logo = 'sidecare-color.svg' %}
+					{% assign bm-name = 'Sidecare' %}
+					{% assign bm-link = 'https://www.sidecare.com/espace-salarie/bienvenue' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'edocperso-color.svg' %}
+					{% assign bm-name = 'EDoc Perso' %}
+					{% assign bm-link = 'https://edocperso.fr/login' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+			</div>
+		</section>
+
+		<section class="bookmark-section">
+			<h2 class="section-title">Web DEV</h2>
+
+			<div class="bookmarks-list">
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'hasty-color.svg' %}
+					{% assign bm-name = 'Hasty' %}
+					{% assign bm-link = 'https://www.wp-hasty.com/tools/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'transfonter-color.svg' %}
+					{% assign bm-name = 'Transfonter' %}
+					{% assign bm-link = 'https://transfonter.org/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'dashicons-black.svg' %}
+					{% assign bm-name = 'Dashicons' %}
+					{% assign bm-link = 'https://developer.wordpress.org/resource/dashicons/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'wpadmincolors-black.svg' %}
+					{% assign bm-name = 'WP admin colors' %}
+					{% assign bm-link = 'https://wpadmincolors.com/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);' %}
+					{% assign bm-logo = 'cssgradient-white.svg' %}
+					{% assign bm-name = 'CSSGradient' %}
+					{% assign bm-link = 'https://cssgradient.io' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(84,70,118);background: linear-gradient(11deg, rgba(84,70,118,1) 0%, rgba(135,81,164,1) 100%);' %}
+					{% assign bm-logo = 'icomoon-white.svg' %}
+					{% assign bm-name = 'Icomoon' %}
+					{% assign bm-link = 'https://icomoon.io/app/#/select' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'github-color.svg' %}
+					{% assign bm-name = 'Github' %}
+					{% assign bm-link = 'https://github.com/guillaumegautier?tab=repositories' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+			</div>
 		</section>
 
 
+
+{% comment %}
 		<section class="bookmarks-section">
 			<h2 class="section-title">Tools</h2>
 
@@ -127,36 +270,7 @@ userscalable: false
 			</div>
 
 		</section>
-
-		<section class="bookmarks-section">
-			<h2 class="section-title">Dev</h2>
-
-			<div class="bookmarks-list">
-				{% assign bm-name = 'transfonter' %}
-				{% assign bm-link = 'https://transfonter.org/' %}
-				{% include bm/bm-sm.html %}
-
-				{% assign bm-name = 'hasty' %}
-				{% assign bm-link = 'https://www.wp-hasty.com/tools/' %}
-				{% include bm/bm-sm.html %}
-
-				{% assign bm-name = 'dashicons' %}
-				{% assign bm-link = 'https://developer.wordpress.org/resource/dashicons/#flag' %}
-				{% include bm/bm-sm.html %}
-
-				{% assign bm-name = 'WP Admin colors' %}
-				{% assign bm-logo = 'wpadmincolors' %}
-				{% assign bm-link = 'https://wpadmincolors.com/' %}
-				{% include bm/bm-sm.html %}
-
-				{% assign bm-name = 'colormind' %}
-				{% assign bm-link = 'http://colormind.io/' %}
-				{% include bm/bm-sm.html %}
-
-			</div>
-			
-		</section>
-
+		{% endcomment %}
 
 	</div>
 

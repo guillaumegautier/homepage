@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 201 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-7370,-1626)">
+        <g id="icomoon-white" transform="matrix(1.01549,0,0,1.01549,587.274,-25.2437)">
+            <rect x="6680" y="1626.05" width="196.949" height="196.949" style="fill:none;"/>
+            <g transform="matrix(0.0630236,0,0,0.0630236,6699.69,1645.75)">
+                <path d="M633.652,1250C633.628,1409.7 763.071,1539.19 922.778,1539.21C1082.49,1539.22 1211.98,1409.8 1212,1250.08L1212,1249.99C1212.02,1090.28 1082.58,960.791 922.871,960.771C763.164,960.747 633.677,1090.19 633.652,1249.9L633.652,1250ZM1250.01,0C559.644,0 0,559.648 0,1250C0,1940.35 559.634,2500 1250.01,2500C1940.36,2500 2500,1940.36 2500,1250C2500,559.648 1940.36,0 1250.01,0ZM926.26,2342C550.391,2123.31 297.676,1716.21 297.676,1250C297.676,783.794 550.391,376.689 926.245,158.003C1302.25,376.66 1555.13,783.706 1555.13,1250C1555.13,1716.28 1302.25,2123.34 926.26,2342Z" style="fill:white;fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

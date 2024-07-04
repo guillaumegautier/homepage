@@ -1,0 +1,164 @@
+---
+layout: default 
+title: Cobblestone
+styles: [style] 
+srcscripts: []
+vendorscripts: []
+userscalable: false
+---
+
+{% comment %}
+	<div class="container">
+		<div class="bookmarks-list">
+
+			<div class="bookmarks-list_item">
+				<div class="bm-thumbnail rounded-5 overflow-hidden"><img src="{{site.imagepath}}/thumbnails/artstation.png" alt=""></div>
+				<div class="bm-header">
+					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/artstation-logo.png" alt=""></div>
+					<div class="bm-header-name">Artstation</div>
+				</div>
+			</div>
+
+			<div class="bookmarks-list_item">
+				<div class="bm-thumbnail"><img src="{{site.imagepath}}/thumbnails/behance.png" alt=""></div>
+				<div class="bm-header">
+					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/behance-logo.png" alt=""></div>
+					<div class="bm-header-name">Behance</div>
+				</div>
+			</div>
+
+			<div class="bookmarks-list_item">
+				<div class="bm-thumbnail"><img src="{{site.imagepath}}/thumbnails/dribbble.png" alt=""></div>
+				<div class="bm-header">
+					<div class="bm-header-logo"><img src="{{site.imagepath}}/logos/dribbble-logo.png" alt=""></div>
+					<div class="bm-header-name">Dribbble</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	{% endcomment %}
+
+	<div class="container">
+
+
+		<section class="bookmarks-section">
+			<h2 class="section-title">Creation</h2>
+			<div class="bookmarks-list">
+				{% assign bm-name = 'artstation' %}
+				{% assign bm-link = 'https://www.artstation.com' %}
+				{% include bm/bm-lg.html %}
+
+				{% assign bm-name = 'behance' %}
+				{% assign bm-link = 'https://www.behance.net/galleries?tracking_source=nav20' %}
+				{% include bm/bm-lg.html %}
+
+				{% assign bm-name = 'dribbble' %}
+				{% assign bm-link = 'https://dribbble.com/shots/popular' %}
+				{% include bm/bm-lg.html %}
+
+				{% assign bm-name = 'deviantart' %}
+				{% assign bm-link = 'https://www.deviantart.com' %}
+				{% include bm/bm-lg.html %}
+
+				{% assign bm-name = 'site inspire' %}
+				{% assign bm-logo = 'site_inspire' %}
+				{% assign bm-link = 'https://www.siteinspire.com/' %}
+				{% include bm/bm-md.html %}
+
+				{% assign bm-name = 'UI8' %}
+				{% assign bm-logo = 'ui8' %}
+				{% assign bm-link = 'https://ui8.net/' %}
+				{% include bm/bm-md.html %}
+			</div>
+		</section>
+
+		<section class="bookmarks-section">
+			<h2 class="section-title">Daily</h2>
+
+			<div class="bookmarks-list">
+				{% assign bm-name = 'sketchup' %}
+				{% assign bm-link = 'https://app.sketchup.com/app' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'Google drive' %}
+				{% assign bm-logo = 'google_drive' %}
+				{% assign bm-link = 'https://drive.google.com/' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'youtube' %}
+				{% assign bm-link = 'https://youtube.com' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'gmail' %}
+				{% assign bm-link = 'https://www.gmail.com' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'calendar' %}
+				{% assign bm-logo = 'google_calendar' %}
+				{% assign bm-link = 'https://calendar.google.com/' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'synology' %}
+				{% assign bm-link = 'http://192.168.1.14:5000/' %}
+				{% include bm/bm-sm.html %}
+
+			</div>
+			
+		</section>
+
+
+		<section class="bookmarks-section">
+			<h2 class="section-title">Tools</h2>
+
+			<div class="bookmarks-list">
+				{% assign bm-name = 'material ui' %}
+				{% assign bm-logo = 'material_ui' %}
+				{% assign bm-link = 'https://materialui.co' %}
+				{% include bm/bm-md.html %}
+
+				{% assign bm-name = 'dimensions' %}
+				{% assign bm-link = 'https://www.dimensions.com' %}
+				{% include bm/bm-md.html %}
+
+				{% assign bm-name = 'svgator' %}
+				{% assign bm-link = 'https://www.svgator.com/' %}
+				{% include bm/bm-md.html %}
+			</div>
+
+		</section>
+
+		<section class="bookmarks-section">
+			<h2 class="section-title">Dev</h2>
+
+			<div class="bookmarks-list">
+				{% assign bm-name = 'transfonter' %}
+				{% assign bm-link = 'https://transfonter.org/' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'hasty' %}
+				{% assign bm-link = 'https://www.wp-hasty.com/tools/' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'dashicons' %}
+				{% assign bm-link = 'https://developer.wordpress.org/resource/dashicons/#flag' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'WP Admin colors' %}
+				{% assign bm-logo = 'wpadmincolors' %}
+				{% assign bm-link = 'https://wpadmincolors.com/' %}
+				{% include bm/bm-sm.html %}
+
+				{% assign bm-name = 'colormind' %}
+				{% assign bm-link = 'http://colormind.io/' %}
+				{% include bm/bm-sm.html %}
+
+			</div>
+			
+		</section>
+
+
+	</div>
+
+
+
