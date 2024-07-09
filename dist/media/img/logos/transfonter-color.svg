@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-7133,-2185)">
-        <g id="transfonter-color" transform="matrix(1.01549,0,0,1.01549,350.14,534.417)">
-            <rect x="6680" y="1626.05" width="196.949" height="196.949" style="fill:none;"/>
-            <clipPath id="_clip1">
-                <rect x="6680" y="1626.05" width="196.949" height="196.949"/>
-            </clipPath>
-            <g clip-path="url(#_clip1)">
-                <g id="transfonter-logo" transform="matrix(6.60014,0,0,6.60014,6285.97,1548.62)">
-                    <path d="M60.3,38.9L60.088,38.876L59.955,38.817L59.859,38.741L59.783,38.645L59.724,38.512L59.7,38.3L59.7,38.166L74.211,13L74.989,13L89.433,38.05L89.354,37.946L89.493,38.142L89.54,38.327L89.52,38.513L89.431,38.685L89.34,38.777L89.218,38.849L89.065,38.891C89.019,38.898 88.96,38.9 88.9,38.9L60.3,38.9ZM65.907,35.2L83.493,35.2L74.7,19.928L65.907,35.2Z" style="fill:rgb(66,139,202);"/>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg viewBox="0 0 201 201" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><g transform="translate(-6782.86 -1650.583) scale(1.01549)"><path fill="none" d="M6680 1626.05h196.949v196.949H6680z"/><clipPath id="a"><path d="M6680 1626.05h196.949v196.949H6680z"/></clipPath><g clip-path="url(#a)"><path d="M6683.958 1805.365l-1.399-.158-.878-.39-.633-.501-.502-.634-.39-.877-.158-1.4v-.884l95.775-166.1h5.135l95.332 165.334-.521-.686.917 1.294.31 1.22-.131 1.228-.588 1.135-.6.608-.806.475-1.01.277a7.73 7.73 0 01-1.089.06h-188.764zm37.007-24.42h116.07L6779 1680.148l-58.035 100.797z" fill="#428bca"/></g></g></svg>
