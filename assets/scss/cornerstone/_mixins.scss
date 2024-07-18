@@ -2,6 +2,7 @@
 	@include media-breakpoint-up($breakpoint){
 		margin: 0 $grid-gutter-width * .5 $grid-gutter-width;
 		flex: 0 0 calc((100% / #{$col}) - #{$grid-gutter-width});
+		width: calc((100% / #{$col}) - #{$grid-gutter-width});
 	}
 }
 
@@ -9,6 +10,7 @@
 	@include media-breakpoint-only($breakpoint){
 		margin: 0 $grid-gutter-width * .5 $grid-gutter-width;
 		flex: 0 0 calc((100% / #{$col}) - #{$grid-gutter-width});
+		width: calc((100% / #{$col}) - #{$grid-gutter-width});
 	}
 }
 

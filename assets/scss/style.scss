@@ -54,6 +54,8 @@
 
 @import 'cornerstone/mixins';
 
+//@import 'cornerstone/breakpoints';
+
 :root{
 	--body-bg: #eee;
 	--body-bg-dark: #132333;
@@ -116,8 +118,14 @@ h2.section-title{
 	display: flex;
 	margin-left: -$grid-gutter-width * .5;
 	margin-right: -$grid-gutter-width * .5;
+	flex-wrap: wrap;
 
 	.bookmarks-list-item{
+		@include list-item(xs, 4);
+		@include list-item(sm, 5);
+		@include list-item(md, 8);
+		@include list-item(lg, 10);
+		@include list-item(xl, 10);
 		@include list-item(xxl, 12);
 	}
 }
@@ -153,15 +161,21 @@ h2.section-title{
 			transform: scale(1.05);
 			box-shadow: 0 10px 30px rgba(0, 0, 0, .1), 0 4px 10px rgba(0, 0, 0, .05);
 		}
+
 		.bm-logo-fx{
 			opacity: 1;
 		}
 	}
 
 	.bm-name{
-		font-size: 12px;
+		font-size: 11px;
 		margin-top: .5rem;
 		font-weight: 500;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		line-height: 1.2em;
+
+		@include media-breakpoint-up(lg) {font-size: 12px;}
 	}
 
 	.bm-link{
