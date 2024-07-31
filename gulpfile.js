@@ -181,7 +181,7 @@ watcher.on('unlink', function(path, stats) {
 })
 
 const clean = cleanDist
-const build = gulp.parallel(jekyll, styleBuild, javascript, fonts, animations,)
+const build = gulp.parallel(jekyll, styleBuild, javascript, fonts, animations, images)
 const compile = gulp.parallel(jekyll, style, javascript, fonts, imagesCopy, animations)
 
 exports.clean = clean

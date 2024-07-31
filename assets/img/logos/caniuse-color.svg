@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-8987.86,-2439.09)">
+        <g id="material_ui-logo">
+        </g>
+        <g id="colormind-logo">
+        </g>
+        <g id="synology-logo">
+        </g>
+        <g id="dimensions-logo">
+        </g>
+        <g id="dimensions">
+        </g>
+        <g id="svgator-logo">
+        </g>
+        <g id="caniuse-color" transform="matrix(1.01549,0,0,1.01549,2204.37,787.849)">
+            <rect x="6680" y="1626.05" width="196.949" height="196.949" style="fill:none;"/>
+            <g transform="matrix(0.984743,0,0,0.656496,-2170.73,97.0123)">
+                <rect x="9007.86" y="2479.09" width="40" height="120" style="fill:rgb(199,74,50);"/>
+            </g>
+            <g transform="matrix(0.984743,0,0,0.328248,-2052.57,950.159)">
+                <rect x="9007.86" y="2479.09" width="40" height="120" style="fill:rgb(70,188,82);"/>
+            </g>
+            <g transform="matrix(0.984743,0,0,0.984743,-2131.35,-756.134)">
+                <rect x="9007.86" y="2479.09" width="40" height="120" style="fill:rgb(70,188,82);"/>
+            </g>
+            <g transform="matrix(0.984743,0,0,1.31299,-2091.96,-1609.28)">
+                <rect x="9007.86" y="2479.09" width="40" height="120" style="fill:rgb(70,188,82);"/>
+            </g>
+        </g>
+    </g>
+</svg>
