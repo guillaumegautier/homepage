@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 480 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="TB-Payment" serif:id="TB Payment">
+    </g>
+    <g id="google-pay-G" serif:id="google pay G" transform="matrix(3.33326,0,0,3.33326,4.75667,0.011008)">
+        <path d="M7.67,104.33C-2.544,84.004 -2.544,59.996 7.67,39.67C19.873,15.388 44.824,0.001 72,0C89.87,-0.209 107.144,6.515 120.17,18.75L99.62,39.3C92.192,32.214 82.264,28.332 72,28.5C53.22,28.5 37.28,41.16 31.58,58.22C28.567,67.158 28.567,76.842 31.58,85.78C37.28,102.84 53.22,115.5 72,115.5C81.73,115.5 90.05,113 96.51,108.62L96.51,108.61C104.084,103.586 109.283,95.676 110.89,86.73L72,86.73L72,59L139.9,59C140.731,63.836 141.146,68.734 141.14,73.64C141.14,95.55 133.31,114.08 119.72,126.61L119.707,126.61L119.72,126.62C107.79,137.62 91.43,144 72,144C44.824,143.999 19.873,128.612 7.67,104.33Z"/>
+    </g>
+</svg>
