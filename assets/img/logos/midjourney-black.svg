@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g transform="matrix(1,0,0,1,-9220.61,-2185.66)">
+        <g id="material_ui-logo">
+        </g>
+        <g id="colormind-logo">
+        </g>
+        <g id="synology-logo">
+        </g>
+        <g id="dimensions-logo">
+        </g>
+        <g id="dimensions">
+        </g>
+        <g id="svgator-logo">
+        </g>
+        <g id="midjourney-black" transform="matrix(1.01549,0,0,1.01549,2437.12,534.417)">
+            <rect x="6680" y="1626.05" width="196.949" height="196.949" style="fill:none;"/>
+            <g id="rear_sail" transform="matrix(0.256646,0,0,0.256646,6646.56,1593.19)">
+                <path d="M267.7,229.5C396.3,284.5 572.7,437.6 605.1,641.5C456.8,581.7 343.9,613.6 265.3,662.1C385.2,509.7 331.4,336.4 267.7,229.5Z" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:18px;"/>
+            </g>
+            <g id="waves" transform="matrix(0.256646,0,0,0.256646,6646.56,1593.19)">
+                <path d="M174,794C194,794 224,752 259,746C279,746 294,788 344,794C379,794 394,752 429,752C464,752 479,794 514,794C549,794 564,752 599,752C634,752 649,794 684,794C719,794 734,752 769,752C804,752 819,794 854,794" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:18px;"/>
+            </g>
+            <g id="hull" transform="matrix(0.256646,0,0,0.256646,6646.56,1593.19)">
+                <path d="M242.4,752.2L219.5,708.4L809.5,670.4C763.1,712.6 703.5,746.8 643.2,774.8" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:18px;"/>
+            </g>
+            <g id="front_sail" transform="matrix(0.256646,0,0,0.256646,6646.56,1593.19)">
+                <path d="M454.4,300.4C554.8,331.1 695.2,479.4 743,638.8C716.8,628.5 697.2,618 660.4,627.4C624.8,497.9 561.1,374.2 454.4,300.4Z" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:18px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
