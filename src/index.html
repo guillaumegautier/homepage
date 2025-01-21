@@ -19,7 +19,6 @@ userscalable: false
 
 <div class="container">
 
-
 		<!-- <section class="bookmarks-section">
 			<h2 class="section-title">Creation</h2>
 			<div class="bookmarks-list">
@@ -51,7 +50,7 @@ userscalable: false
 			</div>
 		</section> -->
 
-		<section class="bookmarks-section">
+		<section class="bookmarks-section mb-5">
 
 
 			<div class="bookmarks-list">
@@ -140,7 +139,7 @@ userscalable: false
 
 		</section>
 
-		<section class="bookmark-section">
+		<section class="bookmark-section mb-5">
 			<h2 class="section-title">Veille</h2>
 
 			<div class="bookmarks-list">
@@ -163,7 +162,7 @@ userscalable: false
 			</div>
 		</section>
 
-		<section class="bookmark-section">
+		<section class="bookmark-section mb-5">
 			<h2 class="section-title">Tapbuy</h2>
 
 			<div class="bookmarks-list">
@@ -222,7 +221,7 @@ userscalable: false
 			</div>
 		</section>
 
-		<section class="bookmark-section">
+		<section class="bookmark-section mb-5">
 			<h2 class="section-title">Web DEV</h2>
 
 			<div class="bookmarks-list">
@@ -299,12 +298,26 @@ userscalable: false
 					{% include bm/bm-new.html %}
 				</div>
 
-				slick slider
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'slick-color.svg' %}
+					{% assign bm-name = 'Slick slider' %}
+					{% assign bm-link = 'https://kenwheeler.github.io/slick/' %}
+					{% include bm/bm-new.html %}
+				</div>
+
+				<div class="bookmarks-list-item">
+					{% assign bm-gradient = 'background: rgb(234,234,234); background: linear-gradient(31deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%);' %}
+					{% assign bm-logo = 'clippath-color.svg' %}
+					{% assign bm-name = 'CSS Clip path maker' %}
+					{% assign bm-link = 'https://bennettfeely.com/clippy/' %}
+					{% include bm/bm-new.html %}
+				</div>
 
 			</div>
 		</section>
 
-		<section class="bookmarks-section">
+		<section class="bookmarks-section mb-5">
 			<h2 class="section-title">Dev projects</h2>
 
 			<ul class="bookmarks-text-list">

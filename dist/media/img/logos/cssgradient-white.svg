@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-7602.5,-1626)">
-        <g id="material_ui-logo">
-        </g>
-        <g id="colormind-logo">
-        </g>
-        <g id="synology-logo">
-        </g>
-        <g id="dimensions-logo">
-        </g>
-        <g id="dimensions">
-        </g>
-        <g id="svgator-logo">
-        </g>
-        <g id="cssgradient-white" transform="matrix(1.01549,0,0,1.01549,819.007,-25.2437)">
-            <rect x="6680" y="1626.05" width="196.949" height="196.949" style="fill:none;"/>
-            <g transform="matrix(1.56931,0,0,1.56931,-1905.31,-762.442)">
-                <g transform="matrix(100,0,0,100,5589.2,1618)">
-                </g>
-                <text x="5481px" y="1618px" style="font-family:'NexaBold', 'Nexa Bold';font-weight:700;font-size:100px;fill:white;">{  }</text>
-            </g>
-        </g>
-    </g>
+    <rect id="cssgradient-white" x="0" y="0" width="200" height="200" style="fill:none;"/>
+    <path d="M65.737,154.104C53.944,155.378 51.554,153.147 51.554,141.992L51.554,120.637C51.554,111.235 52.351,103.426 40.398,100.08C52.351,96.574 51.554,88.924 51.554,79.363L51.554,58.008C51.554,46.853 55.378,43.187 65.737,45.896L65.737,30.757C42.151,26.454 31.155,36.813 31.155,57.052L31.155,79.363C31.155,85.418 30.04,92.749 20,92.749L20,107.251C30.04,107.251 31.155,114.582 31.155,120.637L31.155,142.948C31.155,163.187 42.151,173.546 65.737,169.243L65.737,154.104Z" style="fill:white;fill-rule:nonzero;"/>
+    <path d="M134.263,169.243C157.849,173.546 168.845,163.187 168.845,142.948L168.845,120.637C168.845,114.582 169.96,107.251 180,107.251L180,92.749C169.96,92.749 168.845,85.418 168.845,79.363L168.845,57.052C168.845,36.813 157.849,26.454 134.263,30.757L134.263,45.896C144.622,43.187 148.446,46.853 148.446,58.008L148.446,79.363C148.446,88.924 147.649,96.574 159.602,100.08C147.649,103.426 148.446,111.235 148.446,120.637L148.446,141.992C148.446,153.147 146.056,155.378 134.263,154.104L134.263,169.243Z" style="fill:white;fill-rule:nonzero;"/>
 </svg>
