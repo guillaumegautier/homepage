@@ -34,6 +34,10 @@ var paths = {
 		src: './assets/fonts/**/*.{ttf,woff,woff2,eof,eot,svg}',
 		dest: './dist/media/fonts',
 	},
+	favicon: {
+		src: './assets/favicon/**/*',
+		dest: './dist/media/favicon',
+	},
 	img: {
 		src: './assets/img/**/*',
 		dest: './dist/media/img',
@@ -129,6 +133,13 @@ function fonts(){
 	.pipe(browserSync.stream());
 }
 
+function favicon(){
+	return gulp
+	.src(paths.favicon.src, {since: lastRun(favicon)})
+	.pipe(dest(paths.favicon.dest))
+	.pipe(browserSync.stream());
+}
+
 function animations(){
 	return gulp
 	.src(paths.animations.src, {since: lastRun(animations)})
@@ -181,8 +192,8 @@ watcher.on('unlink', function(path, stats) {
 })
 
 const clean = cleanDist
-const build = gulp.parallel(jekyll, styleBuild, javascript, fonts, animations, images)
-const compile = gulp.parallel(jekyll, style, javascript, fonts, imagesCopy, animations)
+const build = gulp.parallel(jekyll, styleBuild, javascript, fonts, favicon, animations, images)
+const compile = gulp.parallel(jekyll, style, javascript, fonts, favicon, imagesCopy, animations)
 
 exports.clean = clean
 exports.build = series(build)
