@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 201 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-9923,-2439)">
+        <g id="managewp-color" transform="matrix(1.01549,0,0,1.01549,3140.27,787.849)">
+            <rect x="6680" y="1626.05" width="196.949" height="196.949" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="6680" y="1626.05" width="196.949" height="196.949"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.32062,0,0,1.32062,-2173.32,-549.381)">
+                    <g transform="matrix(0.96861,0,0,0.96861,-2930.65,-737.544)">
+                        <path d="M10074,2500.3C10082.3,2511.03 10087.3,2524.49 10087.3,2539.09C10087.3,2574.15 10058.8,2602.6 10023.8,2602.6C9996.11,2602.6 9972.56,2584.89 9963.85,2560.2L9993.72,2516.95L10005.7,2534.7L10029.2,2506.66L10043.9,2532.41L10074,2500.3Z" style="fill:rgb(26,132,198);"/>
+                    </g>
+                    <g transform="matrix(1.17406,0,0,1.17406,-4990.04,-1259.2)">
+                        <path d="M10023.8,2475.58C10058.8,2475.58 10087.3,2504.04 10087.3,2539.09C10087.3,2574.15 10058.8,2602.6 10023.8,2602.6C9988.72,2602.6 9960.26,2574.15 9960.26,2539.09C9960.26,2504.04 9988.72,2475.58 10023.8,2475.58ZM10023.8,2481.38C9991.91,2481.38 9966.05,2507.24 9966.05,2539.09C9966.05,2570.95 9991.91,2596.81 10023.8,2596.81C10055.6,2596.81 10081.5,2570.95 10081.5,2539.09C10081.5,2507.24 10055.6,2481.38 10023.8,2481.38Z" style="fill:rgb(26,132,198);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
