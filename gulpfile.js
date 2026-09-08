@@ -161,6 +161,17 @@ function imagesCopy() {
 	.pipe(browserSync.stream());
 }
 
+function deploy(cb) {
+	const command = 'rsync -avz --delete ./dist/ u100611817@access824079121.webspace-data.io:/kunden/homepages/15/d824079121/htdocs/www/gg2026/personalhome';
+
+	cp.exec(command, (error, stdout, stderr) => {
+		if (stdout) console.log(stdout);
+		if (stderr) console.error(stderr);
+
+		cb(error);
+	});
+}
+
 // clean
 
 function cleanDist() {
@@ -199,5 +210,7 @@ exports.clean = clean
 exports.build = series(build)
 exports.images = images
 exports.watch = watchFiles
+exports.deploy = deploy
 exports.default = series(clean, compile, browsersyncServe, watchFiles)
+exports.publish = series(clean,compile,deploy);
 
