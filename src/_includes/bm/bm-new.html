@@ -1,10 +1,16 @@
-<div class="bm-logo-fx" style="{{bm-gradient}}">
+{% assign bookmark = include.bookmark %}
+{% assign bookmark_gradient = site.data.bookmarks.visual_variants[bookmark.variant] %}
+{% if bookmark.gradient %}
+{% assign bookmark_gradient = bookmark.gradient %}
+{% endif %}
+
+<div class="bm-logo-fx" style="{{bookmark_gradient}}">
 	<img src="media/img/logos/daily-dev-logo.svg" alt="">
 </div>
-<div class="bm-logo" style="{{bm-gradient}}">
-	<img src="media/img/logos/{{bm-logo}}" alt="">
+<div class="bm-logo" style="{{bookmark_gradient}}">
+	<img src="media/img/logos/{{bookmark.logo}}" alt="">
 </div>
 <div class="bm-name">
-	{{bm-name}}
+	{{bookmark.name}}
 </div>
-<a class="bm-link" href="{{bm-link}}"></a>
+<a class="bm-link" href="{{bookmark.url}}"></a>

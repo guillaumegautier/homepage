@@ -4,7 +4,6 @@ const gulp = require('gulp'),
 	  sourcemaps = require('gulp-sourcemaps'),
 	  autoprefixer = require('gulp-autoprefixer'),
 	  image = require('gulp-image'),
-	  uglify = require('gulp-uglify'),
 	  del = require('del'),
 	  browserSync = require('browser-sync').create(),
 	  gutil = require('gulp-util'),
@@ -20,10 +19,6 @@ var paths = {
 		src: ['src/**/*.html','!src/**/_*.html'],
 		dest: './dist/',
 		watch: 'src/**/*.html',
-	},
-	scripts: {
-		src: './assets/js/**/*.js',
-		dest: './dist/media/js/',
 	},
 	style: {
 		src: './assets/scss/**/*.scss',
@@ -87,20 +82,11 @@ function browsersyncReload(cb){
 }
 
 function jekyll(cb) {
-	var jekyll = cp.spawn(process.platform === 'win32' ? 'jekyll.bat' : 'jekyll', ['build', '--config', 'src/_config.yml'], {stdio: 'inherit'});
+	var jekyll = cp.spawn(process.platform === 'win32' ? 'bundle.bat' : 'bundle', ['exec', 'jekyll', 'build', '--config', 'src/_config.yml'], {stdio: 'inherit'});
 	jekyll.on('error', (error) => console.error(error.message))
 	jekyll.on('exit', function(code) {
 		cb(code === 0 ? null :'ERROR: Jekyll process exited with code: '+ code);
 	});
-}
-
-function javascript() {
-	return gulp
-	.src(paths.scripts.src, {since: lastRun(javascript)})
-	.pipe(plumber())
-	.pipe(uglify())
-	.pipe(dest(paths.scripts.dest))
-	.pipe(browserSync.stream());
 }
 
 function style() {
@@ -183,7 +169,6 @@ function cleanDist() {
 function watchFiles(){
 	gulp.watch(paths.jekyll.watch, series(jekyll, browsersyncReload))
 	gulp.watch(paths.style.src, style)
-	gulp.watch(paths.scripts.src, javascript)
 	gulp.watch(paths.img.src, imagesCopy)
 	gulp.watch(paths.fonts.src, fonts)
 	gulp.watch(paths.animations.src, animations)
@@ -203,8 +188,8 @@ watcher.on('unlink', function(path, stats) {
 })
 
 const clean = cleanDist
-const build = gulp.parallel(jekyll, styleBuild, javascript, fonts, favicon, animations, images)
-const compile = gulp.parallel(jekyll, style, javascript, fonts, favicon, imagesCopy, animations)
+const build = gulp.parallel(jekyll, styleBuild, fonts, favicon, animations, images)
+const compile = gulp.parallel(jekyll, style, fonts, favicon, imagesCopy, animations)
 
 exports.clean = clean
 exports.build = series(build)
@@ -213,4 +198,3 @@ exports.watch = watchFiles
 exports.deploy = deploy
 exports.default = series(clean, compile, browsersyncServe, watchFiles)
 exports.publish = series(clean,compile,deploy);
-

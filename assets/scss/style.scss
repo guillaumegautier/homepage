@@ -45,6 +45,8 @@
 //@import 'bootstrap/scss/offcanvas';
 //@import 'bootstrap/scss/placeholders';
 
+@import 'ui/search';
+
 // Helpers
 @import 'bootstrap/scss/helpers';
 
@@ -68,7 +70,7 @@
 }
 
 
-@media (prefers-color-scheme: dark){
+//@media (prefers-color-scheme: dark){
 	body{
 		background-image: url('/media/img/background/background5.jpg');
 		background-size: cover;
@@ -76,15 +78,16 @@
 		color: var(--body-color-dark);
 		min-height: 100vh;
 	}
-}
+//}
 
 
-@media (prefers-color-scheme: light){
-	body{
-		background-color: var(--body-bg);
-		color: var(--body-color);
-	}
-}
+// @media (prefers-color-scheme: light){
+// 	body{
+// 		background-color: var(--body-bg);
+// 		color: var(--body-color);
+// 	}
+// }
+// 
 
 body{
 	user-select: none;
